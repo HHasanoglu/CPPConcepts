@@ -1,3 +1,5 @@
-﻿  main.cpp
-D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\main.cpp(42,1): warning C4154: deletion of an array expression; conversion to pointer supplied
+﻿  mainIntArray.cpp
+D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\mainIntArray.cpp(7,25): warning C4018: '<': signed/unsigned mismatch
+D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\mainIntArray.cpp(21,29): warning C4018: '<': signed/unsigned mismatch
+D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\mainIntArray.cpp(27,25): warning C4018: '<': signed/unsigned mismatch
   CCPConcepts.vcxproj -> D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\x64\Debug\CCPConcepts.exe
