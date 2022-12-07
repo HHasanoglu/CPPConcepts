@@ -9,13 +9,11 @@ namespace sdds {
 			strcpy(m_name, name);
 		}
 	}
-
 	Name::Name(Name& name)
 	{
 		m_name = new char[strlen(name.m_name) + 1];
 		strcpy(m_name, name.m_name);
 	}
-
 	Name& Name::operator=(const Name& RO)
 	{
 		if (this != &RO)
@@ -31,7 +29,6 @@ namespace sdds {
 
 		return *this;
 	}
-
 	std::ostream& Name::display(std::ostream& coutref)const
 	{
 		return coutref << m_name;
@@ -49,15 +46,6 @@ namespace sdds {
 		}
 		return cinref;
 	}
-	std::ostream& operator<<(std::ostream& left, const Name& right) {
-
-		return right.display(left);
-	}
-
-	std::istream& operator>>(std::istream& left, Name& right) {
-
-		return right.read(left);
-	}
 	Name::operator const char* () const
 	{
 		return m_name;
@@ -69,5 +57,14 @@ namespace sdds {
 	Name::~Name()
 	{
 		delete[] m_name;
+	}
+
+	std::ostream& operator<<(std::ostream& left, const Name& right) {
+
+		return right.display(left);
+	}
+	std::istream& operator>>(std::istream& left, Name& right) {
+
+		return right.read(left);
 	}
 }
