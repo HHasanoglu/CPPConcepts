@@ -1,1 +1,2 @@
 D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\x64\Debug\CCPConcepts.exe
+D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\IntArray\x64\Debug\CCPConcepts.exe

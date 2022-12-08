@@ -13,12 +13,14 @@ public:
 	IntArray& operator=(const IntArray& I); //Copy assignement
 	~IntArray();
 
-	int& element(unsigned int index)const;
-	operator bool()const;
 	int size()const;
+	operator bool()const;
+	int& operator[](unsigned int index);
+	const int& operator[](unsigned int index)const;
+	void Resize(unsigned size);
 
-private:
-
+	//int& element(unsigned int index);
+	//const int& element(unsigned int index)const;
 };
 
 }

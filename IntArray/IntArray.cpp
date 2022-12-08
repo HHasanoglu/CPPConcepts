@@ -40,15 +40,43 @@ namespace sdds {
 
 	IntArray::~IntArray() {
 	}
-	int& IntArray::element(unsigned int index)const
+
+
+	//int& IntArray::element(unsigned int index)
+	//{
+	//	return m_data[index%m_size];
+	//}
+
+	int& IntArray::operator[](unsigned int index) {
+
+		return m_data[index % m_size];
+	}
+	//const int& IntArray::element(unsigned int index)const
+	//{
+	//	return m_data[index % m_size];
+	//}
+	const int& IntArray::operator[](unsigned int index)const
 	{
-		return m_data[index];
+		return m_data[index % m_size];
 	}
 
 	IntArray::operator bool() const
 	{
 		return m_data != nullptr;
 	}
+
+	void IntArray::Resize(unsigned newSize) {
+		if (newSize == 0)newSize = 1;
+		int* temp = new int[newSize];
+		for (unsigned i = 0; temp && m_data && i < newSize && i<m_size; i++)
+		{
+			temp[i] = m_data[i];
+		}
+		delete m_data;
+		m_data = temp;
+		m_size = newSize;
+	}
+
 	int IntArray::size()const{
 		return m_size;
 	}

@@ -1,5 +1,2 @@
 ﻿  mainIntArray.cpp
-D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\mainIntArray.cpp(7,25): warning C4018: '<': signed/unsigned mismatch
-D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\mainIntArray.cpp(21,29): warning C4018: '<': signed/unsigned mismatch
-D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\mainIntArray.cpp(27,25): warning C4018: '<': signed/unsigned mismatch
-  CCPConcepts.vcxproj -> D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\x64\Debug\CCPConcepts.exe
+D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\IntArray\mainIntArray.cpp : fatal  error C1041: cannot open program database 'D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\IntArray\x64\Debug\vc143.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS

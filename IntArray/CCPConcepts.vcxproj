@@ -128,7 +128,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="IntArray.cpp" />
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="mainIntArray.cpp" />
   </ItemGroup>
   <ItemGroup>
