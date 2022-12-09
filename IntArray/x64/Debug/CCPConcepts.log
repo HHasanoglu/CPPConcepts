@@ -1,2 +1,3 @@
 ﻿  mainIntArray.cpp
-D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\IntArray\mainIntArray.cpp : fatal  error C1041: cannot open program database 'D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\IntArray\x64\Debug\vc143.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\IntArray\mainIntArray.cpp(15,26): warning C4018: '<': signed/unsigned mismatch
+  CCPConcepts.vcxproj -> D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\IntArray\x64\Debug\CCPConcepts.exe

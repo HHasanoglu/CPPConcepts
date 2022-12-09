@@ -11,6 +11,8 @@ public:
 	IntArray(unsigned int size=1);
 	IntArray(const IntArray& I); //Copy Constructor
 	IntArray& operator=(const IntArray& I); //Copy assignement
+	IntArray& operator=(const int array[]);
+	IntArray& set(const int array[], unsigned arraySize);
 	~IntArray();
 
 	int size()const;

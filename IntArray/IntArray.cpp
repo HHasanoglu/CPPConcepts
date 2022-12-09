@@ -38,6 +38,19 @@ namespace sdds {
 		}
 	}
 
+	IntArray& IntArray::operator=(const int Array[]) {
+		for (int i = 0; i < m_size; i++)
+		{
+			m_data[i] = Array[i];
+		}
+		return *this;
+	}
+
+	IntArray& IntArray::set(const int Array[],unsigned size) {
+		Resize(size);
+		return *this = Array;
+	}
+
 	IntArray::~IntArray() {
 	}
 
@@ -48,8 +61,11 @@ namespace sdds {
 	//}
 
 	int& IntArray::operator[](unsigned int index) {
+		if (index >= m_size) {
+			Resize(index+1);
+		}
 
-		return m_data[index % m_size];
+		return m_data[index];
 	}
 	//const int& IntArray::element(unsigned int index)const
 	//{
@@ -67,7 +83,7 @@ namespace sdds {
 
 	void IntArray::Resize(unsigned newSize) {
 		if (newSize == 0)newSize = 1;
-		int* temp = new int[newSize];
+		int* temp = new int[newSize] {};
 		for (unsigned i = 0; temp && m_data && i < newSize && i<m_size; i++)
 		{
 			temp[i] = m_data[i];
