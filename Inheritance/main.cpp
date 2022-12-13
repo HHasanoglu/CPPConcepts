@@ -21,11 +21,11 @@ int main() {
 	//A.sound();
 	//showAnimal(A);
 
-	//Cat cat("gorbeh", 2);
-	//cat.act();
-	//cat.move();
-	//cat.sound();
-	//cat.play();
+	Cat cat("gorbeh", 2);
+	cat.act();
+	cat.move();
+	cat.sound();
+	cat.play();
 
 	//Animal& catref = cat;
 	//catref.act();
@@ -58,16 +58,16 @@ int main() {
 	//animal.sound();
 
 
-	Dog dog;
+	//Dog dog;
 
-	Animal* animal[4] = { new Cat("Jack"),new Dog("Snowy"),new Cat("jill"),&dog };
+	//Animal* animal[4] = { new Cat("Jack"),new Dog("Snowy"),new Cat("jill"),&dog };
 
-	for (int i = 0; i < 4; i++)
-	{
-		animal[i]->sound();
-	}
+	//for (int i = 0; i < 4; i++)
+	//{
+	//	animal[i]->sound();
+	//}
 
-	for (int i = 0; i < 3; delete animal[i++]);
+	//for (int i = 0; i < 3; delete animal[i++]);
 
 
 

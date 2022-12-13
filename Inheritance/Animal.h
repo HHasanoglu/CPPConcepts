@@ -3,15 +3,15 @@
 namespace sdds {
 	class Animal
 	{
-	//private:
-		//char m_name[41]{};
+	private:
+		char m_name[41]{};
 	public:
-		//Animal(const char* name="Nameless");
-		//Animal(const Animal& RO);
-		//Animal& operator=(const Animal& RO);
+		Animal(const char* name="Nameless");
+		Animal(const Animal& RO);
+		Animal& operator=(const Animal& RO);
 
-		//const char* Getname()const;
-		//void Setname(const char* name);
+		const char* Getname()const;
+		void Setname(const char* name);
 		virtual void act()=0;
 		virtual void move()=0;
 		virtual void sound()=0;

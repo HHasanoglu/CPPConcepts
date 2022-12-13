@@ -32,6 +32,10 @@ namespace sdds
 	{
 		std::cout << "Act like cat" << std::endl;
 	}
+	void Cat::move()
+	{
+		std::cout << "move like cat" << std::endl;
+	}
 	void Cat::sound()
 	{
 		std::cout << "sound like cat" << std::endl;

@@ -13,7 +13,7 @@ namespace sdds {
 		void SetNumberofLives(int number);
 		int GetNumberofLives()const;
 		void act();
-		//void move();
+		void move();
 		void sound();
 		void play();
 		~Cat();

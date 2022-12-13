@@ -1,0 +1,16 @@
+﻿  Cd.cpp
+D:\Hamid1\Hassanzada\Projects\C++\New folder\Project1\Cd.cpp(18,38): error C2664: 'char *strcpy(char *,const char *)': cannot convert argument 1 from 'const char *' to 'char *'
+D:\Hamid1\Hassanzada\Projects\C++\New folder\Project1\Cd.cpp(18,14): message : Conversion loses qualifiers
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(130,1): message : see declaration of 'strcpy'
+D:\Hamid1\Hassanzada\Projects\C++\New folder\Project1\Cd.cpp(20,28): error C2664: 'char *strcpy(char *,const char *)': cannot convert argument 1 from 'const char *' to 'char *'
+D:\Hamid1\Hassanzada\Projects\C++\New folder\Project1\Cd.cpp(20,14): message : Conversion loses qualifiers
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(130,1): message : see declaration of 'strcpy'
+  Classic.cpp
+D:\Hamid1\Hassanzada\Projects\C++\New folder\Project1\Classic.cpp(14,39): error C2664: 'char *strcpy(char *,const char *)': cannot convert argument 1 from 'const char *' to 'char *'
+D:\Hamid1\Hassanzada\Projects\C++\New folder\Project1\Classic.cpp(14,13): message : Conversion loses qualifiers
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(130,1): message : see declaration of 'strcpy'
+D:\Hamid1\Hassanzada\Projects\C++\New folder\Project1\Classic.cpp(19,13): error C2662: 'void sdds::Cd::Report(void)': cannot convert 'this' pointer from 'const sdds::Classic' to 'sdds::Cd &'
+D:\Hamid1\Hassanzada\Projects\C++\New folder\Project1\Classic.cpp(19,6): message : Conversion loses qualifiers
+D:\Hamid1\Hassanzada\Projects\C++\New folder\Project1\Cd.h(16,16): message : see declaration of 'sdds::Cd::Report'
+  main.cpp
+  Generating Code...
