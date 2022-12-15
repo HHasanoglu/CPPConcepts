@@ -11,6 +11,9 @@ namespace sdds {
 		}
 	}
 
+
+
+
 	Name::Name(const Name& RO)
 	{
 		operator=(RO);
