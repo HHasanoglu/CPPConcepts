@@ -34,40 +34,40 @@ Cars::~Cars()
 
 int main() {
 
-	//int size{};
-	//cin >> size;
+	int size{};
+	cin >> size;
 
-	////int numbers[]{size};
+	//int numbers[]{size};
 
-	//int* numbers{ nullptr };
-	//numbers = new int[size];
+	int* numbers{ nullptr };
+	numbers = new int[size];
 
-	//for (int i = 0; i < size; i++)
-	//{
-	//	numbers[i] = i * 10;
-	//}
+	for (int i = 0; i < size; i++)
+	{
+		numbers[i] = i * 10;
+	}
 
-	//for (int i = 0; i < size; i++)
-	//{
-	//	cout << numbers[i] << endl;
-	//}
+	for (int i = 0; i < size; i++)
+	{
+		cout << numbers[i] << endl;
+	}
 
-	//delete[] numbers;
-	//numbers = nullptr;
+	delete[] numbers;
+	numbers = nullptr;
 
-	//cin >> size;
+	cin >> size;
 
-	//numbers = new int[size];
+	numbers = new int[size];
 
-	//for (int i = 0; i < size; i++)
-	//{
-	//	numbers[i] = i * 10;
-	//}
+	for (int i = 0; i < size; i++)
+	{
+		numbers[i] = i * 10;
+	}
 
-	//for (int i = 0; i < size; i++)
-	//{
-	//	cout << numbers[i] << endl;
-	//}
+	for (int i = 0; i < size; i++)
+	{
+		cout << numbers[i] << endl;
+	}
 
 	Cars araba;
 
