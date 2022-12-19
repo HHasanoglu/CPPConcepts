@@ -1,0 +1,5 @@
+﻿  FindPivotIndex.cpp
+  Main.cpp
+  RunningSum.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'x64\Debug\LeetCode75\ FindPivotIndex.obj'

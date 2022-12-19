@@ -18,12 +18,18 @@
     <ClInclude Include="RunningSum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="FindPivotIndex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="RunningSum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindPivotIndex.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
