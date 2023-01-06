@@ -58,5 +58,21 @@ int main() {
 	//cin >> ruler1;
 
 
+	//--------------------------------------------------------------------Extra
+
+	Length ruler1(20);
+	Length ruler2(10);
+	Length Ruler3 = ruler1 + ruler2;
+	ruler1 += ruler2;
+	int length = static_cast<int>( ruler1);
+	cout << length;
+
+
+	//----------------------------------------Rule of Three-----------------------------------
+
+
+
+
+
 	return 0;
 }

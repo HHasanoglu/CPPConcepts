@@ -48,10 +48,10 @@ bool Length::operator>=(const Length& x) const
 	return this->value >= x.getValue();
 }
 
-int Length::operator+(const Length& otherRuler) const
-{
-	return this->value + otherRuler.getValue();
-}
+//int Length::operator+(const Length& otherRuler) const
+//{
+//	return this->value + otherRuler.getValue();
+//}
 
 int Length::operator+(const int x) const
 {
@@ -68,15 +68,32 @@ int Length::operator*(const Length& otherRuler) const
 	return this->value * otherRuler.getValue();
 }
 
+Length Length::operator+(const Length& otherRuler) const
+{
+	return Length(value+otherRuler.value);
+}
+
+Length& Length::operator+=(const Length& otherRuler)
+{
+	value += otherRuler.value;
+	return *this;
+}
+
+Length::operator int() const
+{
+	return value;
+}
+
 std::ostream& operator<<(std::ostream& Cout, const Length& otherRuler)
 {
 	return Cout << otherRuler.getValue();
 }
 
-void operator>>(std::istream& Cin, Length& otherRuler)
+std::istream& operator>>(std::istream& Cin, Length& otherRuler)
 {
 	int value;
 	Cin >>value;
 
 	otherRuler.SetValue(value);
+	return Cin;
 }
