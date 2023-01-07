@@ -1,4 +1,2 @@
-﻿  IntArray.cpp
-  Main.cpp
-  Generating Code...
-  IntArray.vcxproj -> D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\Int-Array\IntArray\Debug\IntArray.exe
+﻿  Main2.cpp
+D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\Int-Array\IntArray\Main2.cpp : fatal error C1041: cannot open program database 'D:\Hamid1\Hassanzada\Projects\C++\Learning\CPPConcepts\Int-Array\IntArray\Debug\vc142.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
